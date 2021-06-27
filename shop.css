@@ -1,0 +1,117 @@
+.navbar-nav a{
+	font-size: 18px;
+}
+
+.navbar-dark .navbar-brand{
+	font-weight: bold;
+	color : #fff;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.navbar-nav{
+	text-align: center;
+}
+
+.nav-link{
+	padding:.2rem 1rem;
+}
+
+.nav-link.active, .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
+	color:#fff !important;
+}
+
+body {
+	background: url("img/bg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+
+
+.card-product-list{
+	opacity: 0.9;
+	background-color: #313131 ;
+	color: #eee;
+	border-style: groove;
+	border-color: black; 
+
+}
+
+
+.cartModal{
+
+	opacity: 0.9;
+	background-color: #313131 ;
+	color: #eee;
+	border-style: groove;
+	border-color: black; 
+
+}
+.h5{
+	color: #e5e5e5;
+	font-weight: bold;
+}
+
+.title{
+	color: #e5e5e5;
+}
+
+.page-link{
+	opacity: 0.9;
+	background-color: #313131 ;
+	color: #eee;
+}
+.button {
+	background: #76B3FA;
+	border-radius: 100px;
+	padding: 10px 40px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 1em;
+	margin: 0 30px;
+	font-weight: bold;
+}
+
+
+
+.gray { background: #D2D2D2;
+	border-radius: 100px;
+	padding: 10px 10px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 1em;
+	margin: 0 30px; }
+
+
+
+}
+.col-sm-3 {
+	padding: 1.5rem 1rem;
+
+	height: 100%;
+}
+
+.table-image {
+	
+	thead {
+		td, th {
+			border: 0;
+			color: #666;
+			font-size: 0.8rem;
+		}
+	}
+
+	td, th {
+		vertical-align: middle;
+		text-align: center;
+
+		&.qty {
+			max-width: 2rem;
+		}
+	}
+}
+

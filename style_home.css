@@ -1,0 +1,64 @@
+.navbar-nav a{
+	font-size: 18px;
+}
+
+.navbar-dark .navbar-brand{
+	font-weight: bold;
+	color : #fff;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.navbar-nav{
+	text-align: center;
+}
+
+.nav-link{
+	padding:.2rem 1rem;
+}
+
+.nav-link.active, .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
+	color:#fff !important;
+}
+
+.carousel-item{
+	height: 100vh;
+	min-height: 300px;
+	background:no-repeat center center scroll;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.carousel-caption{
+	bottom: 300px;
+}
+.carousel-caption h5{
+	color : white;
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+	font-family: arial black;
+}
+.carousel-caption p{
+	color: white;
+	width: 60%;
+	margin:auto;
+	font-size: 18px;
+	line-height: 1.9;
+}
+.carousel-caption a{
+	text-transform: uppercase;
+	background:#c9982c;
+	padding: 10px 30px;
+	display: inline-block;
+	color: #fff;
+	margin-top: 15px;
+}
+
+.w-100{
+	height: 100vh;
+}
+
+

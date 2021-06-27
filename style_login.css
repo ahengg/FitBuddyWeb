@@ -1,0 +1,110 @@
+.navbar-nav a{
+	font-size: 18px;
+}
+
+.navbar-dark .navbar-brand{
+	font-weight: bold;
+	color : #fff;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.navbar-nav{
+	text-align: center;
+}
+
+.nav-link{
+	padding:.2rem 1rem;
+}
+
+.nav-link.active, .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
+	color:#fff !important;
+}
+
+body{
+	background: url(img/loginn_bg.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.main-section{
+	margin:0 auto;
+	margin-top: 130px;
+	padding : 0;
+}
+
+.modal-dialog{
+	margin-top: 220px;
+}
+
+.modal-content{
+	background-color: #232629;
+	opacity: .95;
+	padding: 0 18px;
+	box-shadow: 0px 0px 3px #848484;
+}
+
+.user-img{
+	margin-top: -50px;
+	margin-bottom: 35px;
+}
+
+.user-img img{
+	height: 100px;
+	width: 100px;
+}
+
+.form-group{
+	margin-bottom: 25px;
+}
+
+.form-group input{
+	height: 42px;
+	border-radius: 5px;
+	border: 0;
+	padding-left: 60px;
+}
+
+.form-group::before {
+	font-family: 'Font Awesome\ 5 Free';
+	content: "\f007";
+	position: absolute;
+	font-size: 22px;
+	color: #555e60;
+	left: 28px;
+	padding-top: 4px;
+}
+
+.form-group:last-of-type::before{
+	content: "\f023";
+}
+
+button{
+	width: 40%;
+	margin: 5px 0 25px;
+}
+
+.btn{
+	background-color: #556080;
+	border-color: #556080;
+	padding: 7px 14px;
+	border-radius: 5px;
+	border-bottom: 4px solid #5f6c90;
+}
+
+.btn:hover, .btn:focus{
+	background-color: #3b435a!important;
+	border-color: #3b435a!important;
+	border-bottom: 4px solid #5f6c90!important;
+}
+
+.svg-inline--fa{
+	margin-right: 7px;
+}
+
+.sign_up{
+	padding: 5px 0 25px;
+	color:white;
+}
+

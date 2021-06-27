@@ -1,0 +1,16 @@
+cal_now : goal_calorie - remaining
+sub : [cal_now > goal] = cal_now - goal; [goal > cal_now] = goal - cal_now
+hitung : sub/goal_calorie = %x
+===============================================================================
+goal_calorie = 1400 cal
+remaining = -200
+
+cal_now : 1600
+sub : 1600 - 1400 = 200
+hitung : 200/1400 = 0.14 
+
+berat badan : hitung * 0.14 = 0.0196 kg
+
+if( remaining < 0 ) : prediction = weightNow + berat badan
+if( remaining > 0 ) : prediction = weightNow - berat badan
+else : prediction = weightNow

@@ -1,0 +1,136 @@
+.navbar-nav a{
+	font-size: 18px;
+}
+
+.navbar-dark .navbar-brand{
+	font-weight: bold;
+	color : #fff;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.navbar-nav{
+	text-align: center;
+}
+
+.nav-link{
+	padding:.2rem 1rem;
+}
+
+.nav-link.active, .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
+	color:#fff !important;
+}
+
+body{
+	background: url(img/edit_bg.jpg) no-repeat center center fixed;
+	background-size: cover;
+	overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.main-section{
+	margin:0 auto;
+	margin-top: 130px;
+	padding : 0;	
+	margin-left: 5px;
+}
+
+.main-section2{
+	/*margin:0 auto;*/
+	margin-top: 210px;
+	padding : 0;
+	margin-left: 200px;
+}
+
+.modal-dialog{
+	margin-top: 100px;
+}
+
+.modal-dialog2{
+	margin-top: 100px;
+}
+
+.modal-content{
+	background-color: #232629;
+	opacity: .95;
+	padding: 0 18px;
+	box-shadow: 0px 0px 3px #848484;
+	margin-top: 30px;
+}
+
+.modal-content2{
+	background-color: #232629;
+	opacity: .95;
+	padding: 0 18px;
+	box-shadow: 0px 0px 3px #848484;
+	margin-top: 30px;
+}
+
+.user-img{
+	margin-top: -50px;
+	margin-bottom: 35px;
+}
+
+.user-img img{
+	height: 100px;
+	width: 100px;
+}
+
+.form-group, .form-group2{
+	margin-bottom: 25px;
+	width: auto;
+}
+
+.form-group, .formgroup2 input{
+	height: 42px;
+	border-radius: 5px;
+	border: 0;
+}
+
+button{
+	width: 50%;
+	margin: 0 0 25px;
+}
+
+.btn{
+	background-color: #556080;
+	border-color: #556080;
+	padding: 7px 14px;
+	border-radius: 5px;
+	border-bottom: 4px solid #5f6c90;
+}
+
+.btn:hover, .btn:focus{
+	background-color: #3b435a!important;
+	border-color: #3b435a!important;
+	border-bottom: 4px solid #5f6c90!important;
+}
+
+.btn2{
+	background-color: #556080;
+	border-color: #556080;
+	padding: 7px 14px;
+	border-radius: 5px;
+	border-bottom: 4px solid #5f6c90;
+}
+
+.btn2:hover, .btn2:focus{
+	background-color: #3b435a!important;
+	border-color: #3b435a!important;
+	border-bottom: 4px solid #5f6c90!important;
+}
+
+.svg-inline--fa{
+	margin-right: 7px;
+}
+
+.form-check{
+	margin-left: 10px;
+	color:#fff;
+}
+
+.title h3, h4{
+	color:white;
+	padding-top: 10px;
+}

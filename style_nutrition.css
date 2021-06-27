@@ -1,0 +1,133 @@
+.navbar-nav a{
+	font-size: 18px;
+}
+
+.navbar-dark .navbar-brand{
+	font-weight: bold;
+	color : #fff;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.navbar-nav{
+	text-align: center;
+}
+
+.nav-link{
+	padding:.2rem 1rem;
+}
+
+.nav-link.active, .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
+	color:#fff !important;
+}
+
+body{
+	background: url(img/nutrition_test.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.my-col{
+	margin-top: 90px;
+	margin-left: 20px;
+	border-radius: 25px;
+	background: #524738;
+	padding: 20px;
+	color: #ede2d3 ;
+	width: auto;
+	height: 450px;
+	opacity: 0.90;
+}
+
+.table, .prediction{
+	color: #ede2d3;
+}
+
+td{
+	font-size: 20px;
+}
+
+.my-col-tab{
+	margin-top: 90px;
+	margin-left: 20px;
+	border-radius: 25px;
+	background: #ede2d3;
+	padding: 20px;
+	color: #524738;
+	width: auto;
+	opacity: 0.95;
+}
+
+.my-col-tab2{
+	margin-top: 30px;
+	margin-left: 40px;
+	border-radius: 25px;
+	background: #ede2d3;
+	padding: 20px;
+	color: #524738;
+	width: auto;
+	opacity: 0.95;
+	margin-bottom: 100px;
+}
+
+.fa{
+	font-size: 30px;
+	color:#524738;
+	margin-left: 10px;
+}
+
+.fa:hover{
+	color: #70614c;
+}
+
+.form-control{
+	width: 40%;
+	display: inline-block;
+}
+
+.btn-food, .btn-exercise{
+	background-color: #524738;
+	color: #ede2d3;
+	margin-top: -2px;
+	vertical-align: middle;
+}
+
+.col-yey{
+	border-radius: 200px;
+	background: #665640;
+	color: #ede2d3;
+	padding-top: 10px;
+	padding-bottom: -5px;
+	width: 30px;
+}
+
+.my-row2{
+	margin-bottom: 5px; 
+}
+
+.profile-btn{
+	padding-left: 2px;
+	color: white;
+	font-size: 30px;
+	margin-top: -10px;
+}
+
+.fa-id-card{
+	color: #ede2d3;
+	font-size: 30px;
+}
+
+.fa-id-card:hover{
+	color:#dbd1c3;
+}
+
+#goalSelect, #activitySelect{
+	width: 60%;
+}
+
+td{
+	font-size: 16px;
+}
+
+
